@@ -1,0 +1,28 @@
+.TrafficLights {
+    display: flex;
+    flex-direction: column;
+}
+
+.buld {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: 32px;
+    opacity: 0.2;
+}
+
+.buld.active {
+    opacity: 1;
+}
+
+.buld.red {
+    background-color: red;
+}
+
+.buld.yellow {
+    background-color: yellow;
+}
+
+.buld.green {
+    background-color: green;
+}
